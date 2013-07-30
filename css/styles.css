@@ -1,0 +1,84 @@
+#digraphs {
+    font-family: Arial, sans-serif;
+    max-width: 750px;
+}
+
+#digraphs div {
+    float: left;
+}
+
+#digraphs .canvas {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media (max-width: 750px) {
+    #digraphs .canvas {
+        max-width: 450px;
+    }
+}
+
+#digraphs .cell {
+    stroke: #FFF;
+}
+
+#digraphs .xlabel {
+    font-family: 'Courier New', serif;
+    font-size: 14px;
+    text-anchor: middle;
+    fill: #666;
+}
+
+#digraphs .ylabel {
+    font-family: 'Courier New', serif;
+    font-size: 14px;
+    text-anchor: end;
+    fill: #666;
+}
+
+#digraphs .legend {
+    width: 150px;
+    margin: 15px 10px 10px 0;
+}
+
+#digraphs .legend_title {
+    fill: #666;
+    color: #666;
+    font-size: 14px;
+}
+
+#digraphs .legend_cell {
+    stroke: #FFF;
+}
+
+#digraphs .legend_text {
+    fill: #666;
+    font-size: 11px;
+}
+
+#digraphs .wordlist {
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    width: 120px;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    height: 240px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 12px;
+}
+
+#digraphs .wordlist strong {
+    color: green;
+    font-weight: normal;
+}
+
+.d3tooltip {
+    font-family: "Arial", sans-serif;
+    position: absolute;
+    z-index: 10;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 3px 6px;
+}
