@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Digraph frequency chart</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <div id="digraphs" style="max-width: 800px">
+            <div class="canvas" id="canvas"></div>
+            <div id="wordlist" class="wordlist"></div>
+    	    <div class="legend" id="legend"></div>
+        	<div style="clear:both;"></div>
+        </div>
+        <script type="text/javascript" src="../js/d3.v3.min.js"></script>
+        <script type="text/javascript" src="../js/digraphs.js"></script>
+        <script>
+            digraphs("../dictionaries/2of12.txt");
+        </script>
+    </body>
+</html>
+
